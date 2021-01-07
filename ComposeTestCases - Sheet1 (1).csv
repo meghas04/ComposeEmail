@@ -1,0 +1,17 @@
+Test Case#,Test Description,Expected Result
+1,Verify that function of ‘Compose’ button.,A frame to compose a mail gets displayed.
+2,"Verify that user can enter email Ids in ‘To’, ‘cc’ and ‘bcc’ sections.",User gets suggestions while typing the emailds based on the existing emailIds in user’s email list.
+3,Verify that the user can enter multiple email Ids.,"User can enter multiple email Id,s in 'To', 'CC','BCC' sections."
+4, User can type Subject in Subject Section., User can type Subject in Subject Section.
+5,User can type the email in email body section.,User can type the email in email body section.
+6,Verify that users can format mail .,"User can use editor options like choosing font-family, font-size, bold-italic-underline, etc."
+7,Verify that the user can attach file .as an attachement to the email.,Use can attach a file as an attachment to the email.
+9,"Verify that after entering email Ids in either of the ‘To’, ‘cc’ and ‘bcc’ sections email is sent.,clicking ‘Send’ button, mail gets delivered to intended receivers.","On clicking ‘Send’ button, mail gets delivered to intended receivers."
+10,Verify that sent mails can be found in ‘Sent Mail’ sections of the sender.,Sent Mails found in 'Sent Mail 'section.
+11,Verify that mail can be sent to non-gmail email Ids also.,Emails sent to non gmail ID's also.
+12,Verify that the emails composed but not sent remain in the draft section.,Emails composed but not sent remain in the draft section.
+13,"Verify the maximum number of email recipients that can be entered in ‘To’, ‘cc’ and ‘bcc’ sections.",Maximum 500 Recipients can be added.
+14,Verify the maximum length of text that can be entered in the ‘Subject’ textbox.,Maximum 78 characters allowed in Subject Line
+15,Verify the content limit of text/images that can be entered and successfully delivered as mail body.,Gmail processes messages up to 25 MB in size.i.e sum of message's text and the encoded attachment.
+16,Verify the maximum size and number of attachment that can be attached with an email.,"Up to 25 MB in attachments. More than one attachment,can't add up to more than 25 MB."
+18,Verify what happens when email is sent without Subject.,A pop-up is generated warning user about no subject line.
